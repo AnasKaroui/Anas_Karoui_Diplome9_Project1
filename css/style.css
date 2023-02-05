@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+body{
+    
+}
+ul{
+    background-color: rgb(66, 62, 62);
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+}
+ul li:hover{
+    background-color: red;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*start hero section*/
+
+.hero{
+    background-image: url('../images/Arsenal.jpg');
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+}
+.about_us{
+    
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.about_us h1{
+    margin-bottom: 30px;
+    color: red;
+    font-size: 35px;
+}
+.all-box{
+    display: flex;
+}
+.box{
+    width: 30%;
+    background-color: #eee;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.box:hover{
+    box-shadow: 3px 3px 3px rebeccapurple;
+}
+
+i {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center ;
+    padding: 20px;
+    padding-top: 25px;
+    
+}
+.box h3{
+    font-size: 25px;
+    color: red;
+    margin-top: 20px;
+}
+.content{
+    text-align: center;
+    width: 80%;
+
+    margin: auto;
+    margin-top: 50px;
+}
+.content h1{
+    margin-bottom: 30px;
+    color: red;
+    font-size: 35px;
+    
+}
+
+.content p{
+    margin-bottom :20px;  ;
+}
+.content img{
+    width: 300px;
+    height: 300px;
+}
+
+
+/*START CONTACT US*/
+
+.contact-us{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.contact-us .contact-form{
+    
+    width: 40%;
+    background-color: #eee;    
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.input-form input{
+    width: 65%;
+    height: 30px;
+    border: 1px solid rgb(185, 179, 179);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.input-form input:focus{
+    border: 1px solid rgb(185, 179, 179);
+    outline: none;
+}
+
+.input-form textarea:focus{
+    border: 1px solid rgb(185, 179, 179);
+    outline: none;
+}
+
+textarea{
+    width: 65%;
+    height: 200px;
+    border: 1px solid rgb(185, 179, 179);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+label textarea{
+    vertical-align: middle;
+}
+
+.btn-send{
+    background-color: rgb(242, 117, 117);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    font: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.btn-send:hover{
+    background-color:rgb(231, 75, 75) ;
+}
+
+footer{
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: rgb(116, 112, 112);
+    line-height: 100px;
+
+}
